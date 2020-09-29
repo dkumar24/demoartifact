@@ -1,6 +1,6 @@
 package com.bechtel.technicalbrowser
 
-fun String.changeDotWithUnderScore()
+fun String.changeDotWithUnderScore():String
 {
-    this.replace(".","_")
+    return this.replace(".","_")
 }
